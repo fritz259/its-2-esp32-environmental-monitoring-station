@@ -1,0 +1,16 @@
+profiles:
+  default:
+    fqbn: esp32:esp32:esp32
+    platforms:
+      - platform: esp32:esp32 (3.3.10)
+    libraries:
+      - Adafruit GFX Library (1.11.9)
+      - Adafruit SSD1306 (2.5.10)
+      - Adafruit Unified Sensor (1.1.14)
+      - DHT sensor library (1.4.6)
+    # port: COM3                      # Windows example - uncomment and set your port
+    # port: /dev/cu.usbserial-0001    # macOS example - uncomment and set your port
+    monitor:
+      baudrate: 115200
+
+default_profile: default
