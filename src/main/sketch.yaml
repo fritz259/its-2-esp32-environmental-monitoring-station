@@ -1,15 +1,15 @@
 profiles:
   default:
-    fqbn: esp32:esp32:esp32doit-devkit-v1
+    fqbn: esp32:doit-devkit-v1
     platforms:
       - platform: esp32:esp32 (3.3.10)
-        platform_index_url: https://espressif.github.io/arduino-esp32/package_esp32_index.json
+      - platform_index_url: https://espressif.github.io/arduino-esp32/package_esp32_index.json
     libraries:
       - Adafruit GFX Library (1.11.9)
       - Adafruit SSD1306 (2.5.10)
       - Adafruit Unified Sensor (1.1.14)
-      - DHT sensor library (1.4.6)                    # Windows example - uncomment and set your port
-    port: /dev/cu.usbserial-0001    # macOS example - uncomment and set your port
+      - DHT sensor library (1.4.6)
+    port: /dev/cu.usbserial-0001
     monitor:
       baudrate: 115200
 

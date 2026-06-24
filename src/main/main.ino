@@ -42,7 +42,7 @@ void setup() {
   display.setTextSize(2);
   display.setTextColor(WHITE);
   display.setCursor(0, 20);
-  display.println("Isabel");
+  display.println("ESP32 Environmental Monitoring Station");
   display.setTextSize(1);
   display.setCursor(0, 50);
   display.println("Sensor wird warm...");
