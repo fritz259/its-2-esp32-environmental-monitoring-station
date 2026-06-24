@@ -8,8 +8,7 @@ profiles:
       - Adafruit GFX Library (1.11.9)
       - Adafruit SSD1306 (2.5.10)
       - Adafruit Unified Sensor (1.1.14)
-      - DHT sensor library (1.4.6)
-    port: COM4                      # Windows example - uncomment and set your port
+      - DHT sensor library (1.4.6)                    # Windows example - uncomment and set your port
     port: /dev/cu.usbserial-0001    # macOS example - uncomment and set your port
     monitor:
       baudrate: 115200
